@@ -1,0 +1,37 @@
+.eq, .comida, .roupas, .outra{
+    text-align: center;
+}
+
+.eq img{
+    width: 17rem;
+    margin-bottom: 2rem;
+}
+
+.comida img, .roupas img{
+    width: 18rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.outra img {
+    width: 14rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+
+}
+
+.eq img, .comida img, .roupas img, .outra img{
+    border: solid 2px transparent;
+}
+
+.eq img:hover, .comida img:hover, .roupas img:hover, .outra img:hover{
+    border: solid 2px rgb(225, 20, 20);
+}
+
+.roupas h3 {
+    font-size: 1.125rem;
+}
+
+.outra h3 {
+    text-align: center;
+}
